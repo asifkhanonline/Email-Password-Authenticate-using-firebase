@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="110dp"
+        android:layout_width="188dp"
+        android:layout_height="200dp"
+        android:background="@drawable/asifkhan1logo"
+        />
+    <TextView
+        android:layout_marginLeft="30dp"
+        android:textColor="@android:color/holo_green_dark"
+        android:textStyle="bold"
+        android:textSize="50dp"
+        android:gravity="center"
+        android:text="Login App"
+        android:layout_width="match_parent"
+        android:layout_height="80dp" />
+
+
+    <EditText
+        android:layout_marginLeft="100dp"
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+         />
+
+    <EditText
+        android:layout_marginLeft="100dp"
+        android:hint="Password"
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+         />
+
+    <TextView
+        android:layout_marginLeft="100dp"
+        android:id="@+id/textView"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="Already have an account? Sign in here"
+        />
+
+    <Button
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="150dp"
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+ />
+
+
+
+</LinearLayout>
